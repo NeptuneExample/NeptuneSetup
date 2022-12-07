@@ -7,4 +7,4 @@ Hier folgt die Anleitung zum Aufsetzen
 ..
 ..
 
-<img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/test.png">
+<img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Neptune_Start.png?raw=true">
