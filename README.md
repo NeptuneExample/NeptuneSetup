@@ -65,7 +65,16 @@ In der Ansicht **Notebook erstellen** wird zuerst das zuvor erstellte Neptune **
 * **Notebook Name** = **NeptuneNotebook**
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook3.png?raw=true">
+
+Im Feld IAM-Rollenname wird die Checkbox **Vorhandene IAM-Rolle auswählen** selektiert und anschließend **LabRole** als **IAM-Rollenname** ausgewählt.
+
+* **Vorhandene IAM-Rolle** = **selektieren**
+* **IAM-Rollenname** = **LabRole**
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook4.png?raw=true">
+
+Um das Notebook mit der zuvor erstellten Neptune Datenbank verbinden zu können, ohne das es dabei zu Fehler aufgrund fehlender Berechtigungen kommt, muss eine neue Lebenszykluskonfiguration erstellt werden. Dafür wird die Checkbox **Neue Lebenszykluskonfiguration erstellen** selektiert und vorgeschlagene **Name der Lebenszykluskonfiguration** übernommen. Anschließend wird der **GRAPH_NOTEBOOK_AUTH_MODE** in Zeile fünf des Skripts von **DEFAULT** auf **IAM** geändert, wie die nachfolgende Abbildung zeigt.
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook5.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook6v.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook7.png?raw=true">
