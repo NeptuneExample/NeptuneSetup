@@ -38,7 +38,7 @@ Die Checkbox **Notebook erstellen** wurde deselektiert.
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Deselektiert.png?raw=true">
 
 Abschließend wird die Neptune Datenbank erstellt.
-
+* **Datenbank erstellen**
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Erstellung_Abschluss.png?raw=true">
 
 
