@@ -45,10 +45,22 @@ Abschließend wird die Neptune Datenbank erstellt.
 
 ## Graph Notebook erstellen
 
-Nachdem im ersten Schritt die Neptune Datenbank erstellt wurde, kann im nächsten Schritt das Jupiter Notebook erstellt werden, mit dem auf das Neptune Cluster zugegriffen werden kann. Wichtig ist hierbei zu erwähnen, dass für den Einsatz des Notebooks über AWS Sagemaker eine eigene T3 Instanz aufgesetzt wird, die geringe zusätzliche Kosten verursacht.
+Nachdem im ersten Schritt die Neptune Datenbank erstellt wurde, kann im nächsten Schritt das Jupiter Notebook erstellt werden, mit dem auf das Neptune Cluster zugegriffen werden kann. Wichtig ist hierbei zu erwähnen, dass für den Einsatz des Notebooks über AWS Sagemaker eine eigene T3 Instanz aufgesetzt wird, die zwar geringe aber zusätzliche Kosten verursacht.
+
+Um das Notebook erstellen zu können, wird zuerst von der **Datenbanken** in die **Notebooks** Ansicht gewechselt.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook1.png?raw=true">
+
+Anschließend wird auf **Notebook erstellen** geklickt, um die Erstellung des Notebooks zu starten.
+* **Notebook erstellen**
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook2.png?raw=true">
+
+In der Ansicht **Notebook erstellen** wird zuerst das zuvor erstellte Neptune **Cluster** ausgewählt, mit dem das Notebook verbunden werden soll. Außerdem erhält auch das Notebook einen eigenen **Notebook-Namen**. 
+
+* **Cluster** = **neptuneDB**b (Name des zuvor erstellten Clusters )
+* **Notebook Name** = **NeptuneNotebook**
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook3.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook4.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook5.png?raw=true">
