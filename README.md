@@ -11,23 +11,21 @@ Anschließend erscheint die Neptune Startseite wie die nachfolgende Abbildung ze
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Neptune_Start.png?raw=true">
 
-Im nächsten Schritt wird auf der Neptune Startseite das Feld Datenbanken ausgewählt, woraufhin eine Auflistung aller bisher erstellten Neptune Datenbanken erscheint. Da für das Konto noch keine Neptune Datenbank erstellt wurde, wird mittels des orangen Buttons eine neue Datenbank angelegt.
+Im nächsten Schritt wird auf der Neptune Startseite das Feld **Datenbanken** ausgewählt, woraufhin eine Auflistung aller bisher erstellten Neptune Datenbanken erscheint. Da für das Konto noch keine Neptune Datenbank erstellt wurde, wird mittels des orangen **Datenbank erstellen** Buttons eine neue Datenbank angelegt.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Erstellung.png?raw=true">
 
-## NeptuneSetup3
+In der Ansicht **Datenbank erstellen** wird der Neptune Datenbank eine **DB-Cluster-Kennung** nach wahl gegeben. Die Engine-Optionen bleiben wie die nachfolgende Abbildung zeigt unverändert.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Name.png?raw=true">
 
-## NeptuneSetup4
+Anschließend wird **Entwicklung und Tests** als Vorlage und eine **DB-Instanz-Klasse** vom Typ **T4** ausgewählt.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Entwickliungs.png?raw=true">
 
-## NeptuneSetup5
+Die Erstellung eines Notebooks wird 
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Selekt.png?raw=true">
-
-## NeptuneSetup6
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Deselektiert.png?raw=true">
 
