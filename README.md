@@ -29,7 +29,7 @@ Im nächsten Schritt ist es wichtig, die **Erstellung eines Notebooks** für die
 Die Checkbox **Notebook erstellen** wurde deselektiert.
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Deselektiert.png?raw=true">
 
-Abschließend wird die Neptune Datenbank erstellt.
+Abschließend wird die Neptune Datenbank erstellt und es erscheint die Übersicht aller erstelleten Datenbanken.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Erstellung_Abschluss.png?raw=true">
 
