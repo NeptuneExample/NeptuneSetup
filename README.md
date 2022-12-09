@@ -17,6 +17,8 @@ Im nächsten Schritt wird auf der Neptune Startseite das Feld **Datenbanken** au
 
 In der Ansicht **Datenbank erstellen** wird der Neptune Datenbank eine **DB-Cluster-Kennung** nach wahl gegeben. Die Engine-Optionen bleiben wie die nachfolgende Abbildung zeigt unverändert.
 
+* **DB-Cluster-Kennung** = neptuneDB
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Name.png?raw=true">
 
 Anschließend wird **Entwicklung und Tests** als Vorlage und eine **DB-Instanz-Klasse** vom Typ **T4** ausgewählt.
