@@ -23,7 +23,7 @@ Anschließend wird **Entwicklung und Tests** als Vorlage und eine **DB-Instanz-K
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Entwickliungs.png?raw=true">
 
-Die Erstellung eines Notebooks wird 
+Im nächsten Schritt ist es wichtig, die **Erstellung eines Notebooks** für die Neptune Datenbank zu deselektieren. Andernfalls kommt es aufgrund der fehlenden Berechtigungen im AWS Learner Lab zu einer Fehlermeldung und die Erstellung des Notebooks schlägt fehl.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Selekt.png?raw=true">
 
