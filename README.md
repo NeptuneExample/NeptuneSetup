@@ -17,15 +17,19 @@ Im nächsten Schritt wird auf der Neptune Startseite das Feld **Datenbanken** au
 
 In der Ansicht **Datenbank erstellen** wird der Neptune Datenbank eine **DB-Cluster-Kennung** nach wahl gegeben. Die Engine-Optionen bleiben wie die nachfolgende Abbildung zeigt unverändert.
 
-* **DB-Cluster-Kennung** = neptuneDB
+* **DB-Cluster-Kennung** = **neptuneDB**
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Name.png?raw=true">
 
 Anschließend wird **Entwicklung und Tests** als Vorlage und eine **DB-Instanz-Klasse** vom Typ **T4** ausgewählt.
 
+* **Entwicklung und Tests** = **selektiert**
+* **DB-Instanz-Klasse** = **db.t4g.medium**
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Entwickliungs.png?raw=true">
 
 Im nächsten Schritt ist es wichtig, die **Erstellung eines Notebooks** für die Neptune Datenbank zu deselektieren. Andernfalls kommt es aufgrund der fehlenden Berechtigungen im AWS Learner Lab zu einer Fehlermeldung und die Erstellung des Notebooks schlägt fehl.
+* **Notebook erstellen** = **deselektiert**
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook_Selekt.png?raw=true">
 
