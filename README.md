@@ -45,6 +45,8 @@ Abschließend wird die Neptune Datenbank erstellt.
 
 ## Graph Notebook erstellen
 
+Nachdem im ersten Schritt die Neptune Datenbank erstellt wurde, kann im nächsten Schritt das Jupiter Notebook erstellt werden, mit dem auf das Neptune Cluster zugegriffen werden kann. Wichtig ist hierbei zu erwähnen, dass für den Einsatz des Notebooks über AWS Sagemaker eine eigene T3 Instanz aufgesetzt wird, die geringe zusätzliche Kosten verursacht.
+
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook1.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook2.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook3.png?raw=true">
