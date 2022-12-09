@@ -80,6 +80,12 @@ Um das Notebook mit der zuvor erstellten Neptune Datenbank verbinden zu können,
 * **GRAPH_NOTEBOOK_AUTH_MODE** = **IAM**
  
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook5.png?raw=true">
+
+Abschließend wird die Netzwerkkonfiguration des Notebooks so angepasst, das es sich in dem gleichen Subnetz befindet wie die zuvor erstellte Neptune Datenbank. Zudem wird **AWS Sagemaker als Zugriffsmethode** für das Internet ausgewählt, da es hier ansonsten wieder zu Fehler mit den Berechntigungen kommt. Nachdem alle Änderungen vorgenommen wurden, kann das Notebook erstellt werden.
+
+* **Subnetz** = **us-east-a1** (gleiches Subnetz wie die Neptune Datenbank)
+* **Direkter Zugang über Amazon SageMaker** = **IAM**
+* **Notebook erstellen**
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook6v.png?raw=true">
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook7.png?raw=true">
 
