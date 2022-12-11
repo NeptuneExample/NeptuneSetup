@@ -11,11 +11,11 @@ Anschließend erscheint die Neptune Startseite, wie die nachfolgende Abbildung z
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Neptune_Start.png?raw=true">
 
-Im nächsten Schritt wird auf der Neptune Startseite das Feld **Datenbanken** ausgewählt, woraufhin eine Auflistung aller bisher erstellten Neptune Datenbanken erscheint. Da für das Konto noch keine Neptune Datenbank erstellt wurde, wird mittels des orangen **Datenbank erstellen** Buttons eine neue Datenbank angelegt.
+Im nächsten Schritt wird auf der Neptune Startseite das Feld **Datenbanken** ausgewählt, woraufhin eine Auflistung aller bisher erstellten Neptune Datenbanken erscheint. Da für das Konto noch keine Neptune Datenbank erstellt wurde, wird eine neue Datenbank angelegt.
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/DB_Erstellung.png?raw=true">
 
-In der Ansicht **Datenbank erstellen** wird der Neptune Datenbank eine **DB-Cluster-Kennung** nach wahl gegeben. Die Engine-Optionen bleiben wie die nachfolgende Abbildung zeigt unverändert.
+In der Ansicht **Datenbank erstellen** wird der Neptune Datenbank eine **DB-Cluster-Kennung** nach Wahl gegeben. Die Engine-Optionen bleiben, wie die nachfolgende Abbildung zeigt, unverändert.
 
 * **DB-Cluster-Kennung** = **neptuneDB**
 
