@@ -1,13 +1,13 @@
 # AWS Neptune Setup
 
-Die nachfolgende Anleitung zeigt das Aufsetzen einer AWS Neptune Datenbank sowie das anschließende Verbinden zu einem Graph Notebook (AWS Sagemaker) in der AWS Academy Umgebung. Aufgrund fehlernder Rechte im AWS Learner Lab muss sich beim Aufsetzen des Neptune Setups stritkt an die nachfolgende Anleitung gehalten werden. Inbesonderen das von Amazon in diversen Demos gezeigt parrallele erstellen von Neptune Datenbank und Notebook funktinoniert in dem Learner Lab nicht.
+Die nachfolgende Anleitung zeigt das Aufsetzen einer AWS Neptune Datenbank sowie das anschließende Verbinden zu einem Graph Notebook (AWS Sagemaker) in der AWS Academy Umgebung. Aufgrund fehlender Rechte im AWS Learner Lab muss sich beim Aufsetzen des Neptune Setups strikt an die nachfolgende Anleitung gehalten werden. Insbesondere das von Amazon in diversen Demos gezeigt parallele erstellen von Neptune Datenbank und Notebook funktioniert in dem Learner Lab nicht.
 
 
 ## Neptune Datenbank erstellen
 Im ersten Schritt wird die AWS Neptune Datenbank erstellt. Die hierbei durchgeführten Schritte sind nachfolgend erläutert.
 
 Um auf die Neptune Startseite zu kommen, sucht man in der AWS Management Console nach "Neptune" und wählt den Service aus.
-Anschließend erscheint die Neptune Startseite wie die nachfolgende Abbildung zeigt. 
+Anschließend erscheint die Neptune Startseite, wie die nachfolgende Abbildung zeigt. 
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Neptune_Start.png?raw=true">
 
