@@ -73,7 +73,7 @@ Im Feld IAM-Rollenname wird die Checkbox **Vorhandene IAM-Rolle auswählen** sel
 
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook4.png?raw=true">
 
-Um das Notebook mit der zuvor erstellten Neptune Datenbank verbinden zu können, ohne das es dabei zu Fehler aufgrund fehlender Berechtigungen kommt, muss eine neue Lebenszykluskonfiguration erstellt werden. Dafür wird die Checkbox **Neue Lebenszykluskonfiguration erstellen** selektiert und vorgeschlagene **Name der Lebenszykluskonfiguration** übernommen. Anschließend wird der **GRAPH_NOTEBOOK_AUTH_MODE** in Zeile fünf des Skripts von **DEFAULT** auf **IAM** geändert, wie die nachfolgende Abbildung zeigt.
+Um das Notebook mit der zuvor erstellten Neptune Datenbank verbinden zu können, ohne das es dabei zu Fehler aufgrund fehlender Berechtigungen kommt, muss eine neue Lebenszykluskonfiguration erstellt werden. Dafür wird die Checkbox **Neue Lebenszykluskonfiguration erstellen** selektiert und der vorgeschlagene **Name der Lebenszykluskonfiguration** übernommen. Anschließend wird der **GRAPH_NOTEBOOK_AUTH_MODE** in Zeile fünf des Skripts von **DEFAULT** auf **IAM** geändert, wie die nachfolgende Abbildung zeigt.
 
 * **Neue Lebenszykluskonfiguration erstellen** = **selektiert**
 * **Name der Lebenszykluskonfiguration** = **neptuneNotebook-LC**
@@ -81,14 +81,14 @@ Um das Notebook mit der zuvor erstellten Neptune Datenbank verbinden zu können,
  
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook5.png?raw=true">
 
-Abschließend wird die Netzwerkkonfiguration des Notebooks so angepasst, das es sich in dem gleichen Subnetz befindet wie die zuvor erstellte Neptune Datenbank. Zudem wird **AWS Sagemaker als Zugriffsmethode** für das Internet ausgewählt, da es hier ansonsten wieder zu Fehler mit den Berechntigungen kommt. Nachdem alle Änderungen vorgenommen wurden, kann das Notebook erstellt werden.
+Abschließend wird die Netzwerkkonfiguration des Notebooks so angepasst, das es sich in dem gleichen Subnetz befindet wie die zuvor erstellte Neptune Datenbank. Zudem wird **AWS Sagemaker als Zugriffsmethode** für das Internet ausgewählt, da es hier ansonsten wieder zu Fehlern mit den Berechtigungen kommt. Nachdem alle Änderungen vorgenommen wurden, kann das Notebook erstellt werden.
 
 * **Subnetz** = **us-east-a1** (gleiches Subnetz wie die Neptune Datenbank)
 * **Direkter Zugang über Amazon SageMaker** = **IAM**
 * **Notebook erstellen**
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook6v.png?raw=true">
 
-Nachdem sowohl die Neptune Datenbank als auch das Notebook erstellt wurden, kann über das Notebook auf die Neptune Datenbank zugegriffen werden um Daten in die Datenbank zu laden oder Abfragen auszuführen. Zudem bietet das Notebook viele integrierte Optionen zur grafischen Darstellung der Graphen.
+Nachdem sowohl die Neptune Datenbank als auch das Notebook erstellt wurden, kann über das Notebook auf die Neptune Datenbank zugegriffen werden, um Daten in die Datenbank zu laden oder Abfragen auszuführen. Zudem bietet das Notebook viele integrierte Optionen zur grafischen Darstellung der Graphen.
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook7.png?raw=true">
 
 
