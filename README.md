@@ -88,7 +88,7 @@ Abschließend wird die Netzwerkkonfiguration des Notebooks so angepasst, das es 
 * **Notebook erstellen**
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook6v.png?raw=true">
 
-Nachdem sowohl die Neptune Datenbank als auch das Notebook erstellt wurden, kann über das Notebook auf die Neptune Datenbank zugegriffen werden, um Daten in die Datenbank zu laden oder Abfragen auszuführen. Zudem bietet das Notebook viele integrierte Optionen zur grafischen Darstellung der Graphen.
+Nachdem sowohl die Neptune Datenbank als auch das Notebook erstellt wurden, kann über das Notebook auf die Neptune Datenbank zugegriffen werden, um Daten in die Datenbank zu laden oder Abfragen auszuführen. Zudem bietet das Notebook viele integrierte Optionen zur Darstellung der Graphen an.
 <img width=“964” src="https://github.com/NeptuneExample/NeptuneSetup/blob/main/Bilder/Notebook7.png?raw=true">
 
 
